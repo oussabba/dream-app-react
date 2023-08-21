@@ -8,7 +8,7 @@ function Navbar() {
     <div className="hidden md:flex items-center justify-between py-8 px-2 md:px-40">
       <a href="/">
         <img
-          src="src/assets/logo.png"
+          src="./assets/logo.png"
           alt="logo"
           className="w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
         />

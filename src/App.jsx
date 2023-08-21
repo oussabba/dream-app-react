@@ -9,31 +9,31 @@ import { isDesktop } from "react-device-detect";
 
 const stepsData = [
   {
-    imageSrc: "src/assets/step_1.svg",
+    imageSrc: "./assets/step_1.svg",
     text: "1. Le rève liber l'expressior",
   },
   {
-    imageSrc: "src/assets/step_2.svg",
+    imageSrc: "./assets/step_2.svg",
     text: "2. Le sens éclaire le parcours",
   },
   {
-    imageSrc: "src/assets/step_3.svg",
+    imageSrc: "./assets/step_3.svg",
     text: "3. La différence rend unique",
   },
   {
-    imageSrc: "src/assets/step_4.svg",
+    imageSrc: "./assets/step_4.svg",
     text: "4. La valeur humaine met en mouvement",
   },
   {
-    imageSrc: "src/assets/step_5.svg",
+    imageSrc: "./assets/step_5.svg",
     text: "5. La clé exprime le style",
   },
   {
-    imageSrc: "src/assets/step_6.svg",
+    imageSrc: "./assets/step_6.svg",
     text: "6. Le parcours associe rêve et réalité",
   },
   {
-    imageSrc: "src/assets/step_7.svg",
+    imageSrc: "./assets/step_7.svg",
     text: "7. Le ciel bleu révèle l'alignement",
   },
 ];
@@ -82,7 +82,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen md:bg-[url('/src/assets/dream_app_bg.png')] bg-auto bg-no-repeat bg-center">
+      <div className="w-screen h-screen md:bg-[url('./assets/dream_app_bg.png')] bg-auto bg-no-repeat bg-center">
         <Navbar></Navbar>
         <div className="container flex flex-row">
           <div className="left-side text-white ml-40 pt-20 hidden md:block">
