@@ -82,7 +82,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen md:bg-[url('public/assets/dream_app_bg.png')] bg-auto bg-no-repeat bg-center">
+      <div className="w-screen h-screen md:bg-[url('/assets/dream_app_bg.png')] bg-auto bg-no-repeat bg-center">
         <Navbar></Navbar>
         <div className="container flex flex-row">
           <div className="left-side text-white ml-40 pt-20 hidden md:block">
